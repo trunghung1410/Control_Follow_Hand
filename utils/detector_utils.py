@@ -20,7 +20,7 @@ TRAINED_MODEL_DIR = 'frozen_graphs'
 # PATH_TO_CKPT = TRAINED_MODEL_DIR + '/ssd5_optimized_inference_graph.pb'
 # PATH_TO_LABELS = TRAINED_MODEL_DIR + '/hand_label_map.pbtxt'
 
-PATH_TO_CKPT = TRAINED_MODEL_DIR + '/frozen_inference_graph_v2_200000_1id.pb'
+PATH_TO_CKPT = TRAINED_MODEL_DIR + '/frozen_inference_graph_v2_130000_1id.pb'
 PATH_TO_LABELS = TRAINED_MODEL_DIR + '/labelmap.pbtxt'
 
 # PATH_TO_CKPT = TRAINED_MODEL_DIR + '/frozen_inference_graph_v2_180000_2id.pb'
