@@ -37,7 +37,7 @@ if __name__ == '__main__':
         while True:
             # Read Frame and process
             frame = vs.read()
-            frame = cv2.resize(frame, (600, 450))
+            frame = cv2.resize(frame, (400, 300))
 
             if im_height == None:
                 im_height, im_width = frame.shape[:2]
