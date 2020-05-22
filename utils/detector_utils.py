@@ -156,9 +156,9 @@ def control_right_left(num_hands_detect, score_thresh, scores, boxes, im_width, 
             p3 = int((left + right) / 2)
 
             lech1 = (im_width / 2) - p3
-            if lech1 >= 50:
+            if lech1 >= 30:
                 a1 = 1
-            elif lech1 > -50:
+            elif lech1 > -30:
                 a1 = 0
             else:
                 a1 = 2
